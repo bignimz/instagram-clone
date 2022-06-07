@@ -1,0 +1,1242 @@
+[
+{
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+        "app_label": "admin",
+        "model": "logentry"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+        "app_label": "auth",
+        "model": "permission"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+        "app_label": "auth",
+        "model": "group"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+        "app_label": "auth",
+        "model": "user"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+        "app_label": "contenttypes",
+        "model": "contenttype"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+        "app_label": "sessions",
+        "model": "session"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+        "app_label": "post",
+        "model": "post"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+        "app_label": "post",
+        "model": "tag"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+        "app_label": "post",
+        "model": "stream"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+        "app_label": "post",
+        "model": "follow"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": {
+        "app_label": "post",
+        "model": "likes"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": {
+        "app_label": "authy",
+        "model": "profile"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": {
+        "app_label": "comment",
+        "model": "comment"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": {
+        "app_label": "directs",
+        "model": "message"
+    }
+},
+{
+    "model": "contenttypes.contenttype",
+    "pk": 15,
+    "fields": {
+        "app_label": "notification",
+        "model": "notification"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "2epiohb8kmtggkfpelv2tbww3iu641fw",
+    "fields": {
+        "session_data": ".eJxVjMEOwiAQRP-FsyFLaQt49O43kF1YpGogKe3J-O9K0oNmbvPezEt43Lfs98arX6I4CyVOvx1heHDpIN6x3KoMtWzrQrIr8qBNXmvk5-Vw_w4yttzXithprQMYN8GolYoAkRKCdcMYkgENdiKj4BtDPDAm64IhR5zmNIv3B8W7N5E:1nyYUA:DEsaW8JxTx8C4XLJUQbHAIQalKJrvmivDn2Z75EIBsk",
+        "expire_date": "2022-06-21T12:39:02.302Z"
+    }
+},
+{
+    "model": "post.tag",
+    "pk": 1,
+    "fields": {
+        "title": "art",
+        "slug": "628f17ae-e65a-11ec-99c8-c5bcd079f1cb"
+    }
+},
+{
+    "model": "post.tag",
+    "pk": 2,
+    "fields": {
+        "title": "france",
+        "slug": "78771634-e65a-11ec-99c8-c5bcd079f1cb"
+    }
+},
+{
+    "model": "post.tag",
+    "pk": 3,
+    "fields": {
+        "title": "kisumu",
+        "slug": "87b99a18-e65a-11ec-99c8-c5bcd079f1cb"
+    }
+},
+{
+    "model": "post.tag",
+    "pk": 4,
+    "fields": {
+        "title": "tree",
+        "slug": "c94b255c-e65d-11ec-99c8-c5bcd079f1cb"
+    }
+},
+{
+    "model": "post.tag",
+    "pk": 5,
+    "fields": {
+        "title": "family",
+        "slug": "d8385814-e65d-11ec-99c8-c5bcd079f1cb"
+    }
+},
+{
+    "model": "post.tag",
+    "pk": 6,
+    "fields": {
+        "title": "picture",
+        "slug": "ed5b17ae-e65d-11ec-99c8-c5bcd079f1cb"
+    }
+},
+{
+    "model": "post.tag",
+    "pk": 7,
+    "fields": {
+        "title": "night",
+        "slug": "852cf0ac-e65e-11ec-99c8-c5bcd079f1cb"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": [
+            "admin",
+            "logentry"
+        ],
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": [
+            "auth",
+            "permission"
+        ],
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": [
+            "auth",
+            "group"
+        ],
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": [
+            "auth",
+            "user"
+        ],
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": [
+            "contenttypes",
+            "contenttype"
+        ],
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": [
+            "sessions",
+            "session"
+        ],
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add post",
+        "content_type": [
+            "post",
+            "post"
+        ],
+        "codename": "add_post"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change post",
+        "content_type": [
+            "post",
+            "post"
+        ],
+        "codename": "change_post"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete post",
+        "content_type": [
+            "post",
+            "post"
+        ],
+        "codename": "delete_post"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view post",
+        "content_type": [
+            "post",
+            "post"
+        ],
+        "codename": "view_post"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add Tag",
+        "content_type": [
+            "post",
+            "tag"
+        ],
+        "codename": "add_tag"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change Tag",
+        "content_type": [
+            "post",
+            "tag"
+        ],
+        "codename": "change_tag"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete Tag",
+        "content_type": [
+            "post",
+            "tag"
+        ],
+        "codename": "delete_tag"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view Tag",
+        "content_type": [
+            "post",
+            "tag"
+        ],
+        "codename": "view_tag"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add stream",
+        "content_type": [
+            "post",
+            "stream"
+        ],
+        "codename": "add_stream"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change stream",
+        "content_type": [
+            "post",
+            "stream"
+        ],
+        "codename": "change_stream"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete stream",
+        "content_type": [
+            "post",
+            "stream"
+        ],
+        "codename": "delete_stream"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view stream",
+        "content_type": [
+            "post",
+            "stream"
+        ],
+        "codename": "view_stream"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add follow",
+        "content_type": [
+            "post",
+            "follow"
+        ],
+        "codename": "add_follow"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change follow",
+        "content_type": [
+            "post",
+            "follow"
+        ],
+        "codename": "change_follow"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete follow",
+        "content_type": [
+            "post",
+            "follow"
+        ],
+        "codename": "delete_follow"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view follow",
+        "content_type": [
+            "post",
+            "follow"
+        ],
+        "codename": "view_follow"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add likes",
+        "content_type": [
+            "post",
+            "likes"
+        ],
+        "codename": "add_likes"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change likes",
+        "content_type": [
+            "post",
+            "likes"
+        ],
+        "codename": "change_likes"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete likes",
+        "content_type": [
+            "post",
+            "likes"
+        ],
+        "codename": "delete_likes"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view likes",
+        "content_type": [
+            "post",
+            "likes"
+        ],
+        "codename": "view_likes"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add profile",
+        "content_type": [
+            "authy",
+            "profile"
+        ],
+        "codename": "add_profile"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change profile",
+        "content_type": [
+            "authy",
+            "profile"
+        ],
+        "codename": "change_profile"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete profile",
+        "content_type": [
+            "authy",
+            "profile"
+        ],
+        "codename": "delete_profile"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view profile",
+        "content_type": [
+            "authy",
+            "profile"
+        ],
+        "codename": "view_profile"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+        "name": "Can add comment",
+        "content_type": [
+            "comment",
+            "comment"
+        ],
+        "codename": "add_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+        "name": "Can change comment",
+        "content_type": [
+            "comment",
+            "comment"
+        ],
+        "codename": "change_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+        "name": "Can delete comment",
+        "content_type": [
+            "comment",
+            "comment"
+        ],
+        "codename": "delete_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+        "name": "Can view comment",
+        "content_type": [
+            "comment",
+            "comment"
+        ],
+        "codename": "view_comment"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+        "name": "Can add message",
+        "content_type": [
+            "directs",
+            "message"
+        ],
+        "codename": "add_message"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+        "name": "Can change message",
+        "content_type": [
+            "directs",
+            "message"
+        ],
+        "codename": "change_message"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+        "name": "Can delete message",
+        "content_type": [
+            "directs",
+            "message"
+        ],
+        "codename": "delete_message"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+        "name": "Can view message",
+        "content_type": [
+            "directs",
+            "message"
+        ],
+        "codename": "view_message"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+        "name": "Can add notification",
+        "content_type": [
+            "notification",
+            "notification"
+        ],
+        "codename": "add_notification"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+        "name": "Can change notification",
+        "content_type": [
+            "notification",
+            "notification"
+        ],
+        "codename": "change_notification"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+        "name": "Can delete notification",
+        "content_type": [
+            "notification",
+            "notification"
+        ],
+        "codename": "delete_notification"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+        "name": "Can view notification",
+        "content_type": [
+            "notification",
+            "notification"
+        ],
+        "codename": "view_notification"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$tEX85eTNv2uW$3QaJGfNZmjKuPrrvMmXK/De0speweZ8USzkHqqnJLb0=",
+        "last_login": "2022-06-07T12:39:02.295Z",
+        "is_superuser": true,
+        "username": "nimrod",
+        "first_name": "",
+        "last_name": "",
+        "email": "alroude.chitayi@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2022-06-07T12:05:18.029Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$OkRgPdgV5aY2$z/XdTloBtAa7YJRN+fTldU/vtOBgsRryeQ9j4if9MHQ=",
+        "last_login": "2022-06-07T12:22:57.029Z",
+        "is_superuser": false,
+        "username": "amara",
+        "first_name": "",
+        "last_name": "",
+        "email": "micmojainc@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2022-06-07T12:10:26.210Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "post.post",
+    "pk": "1778cfdf-3a10-48b8-9471-7a360744bf7c",
+    "fields": {
+        "picture": "user_2/tree-736885__480.jpg",
+        "caption": "Tree",
+        "posted": "2022-06-07",
+        "user": [
+            "amara"
+        ],
+        "likes": 0,
+        "tags": [
+            4
+        ]
+    }
+},
+{
+    "model": "post.post",
+    "pk": "2cfad4ac-8fb0-416e-ac88-5de99442a708",
+    "fields": {
+        "picture": "user_2/guide_to_product_photography.webp",
+        "caption": "Picture",
+        "posted": "2022-06-07",
+        "user": [
+            "amara"
+        ],
+        "likes": 0,
+        "tags": [
+            6
+        ]
+    }
+},
+{
+    "model": "post.post",
+    "pk": "449451df-ce80-4018-9234-9a9e42d186ed",
+    "fields": {
+        "picture": "user_1/983794168.jpg",
+        "caption": "Nice work of art",
+        "posted": "2022-06-07",
+        "user": [
+            "nimrod"
+        ],
+        "likes": 0,
+        "tags": [
+            1
+        ]
+    }
+},
+{
+    "model": "post.post",
+    "pk": "5ef07e4b-2cfe-4e87-8702-8e44ed56166c",
+    "fields": {
+        "picture": "user_1/kisumu-dala.jpg",
+        "caption": "Kisumu City",
+        "posted": "2022-06-07",
+        "user": [
+            "nimrod"
+        ],
+        "likes": 0,
+        "tags": [
+            3
+        ]
+    }
+},
+{
+    "model": "post.post",
+    "pk": "97f24b52-ef35-4e44-9f77-02f39fb05445",
+    "fields": {
+        "picture": "user_2/good-night-images.webp",
+        "caption": "Good Night",
+        "posted": "2022-06-07",
+        "user": [
+            "amara"
+        ],
+        "likes": 0,
+        "tags": [
+            7
+        ]
+    }
+},
+{
+    "model": "post.post",
+    "pk": "9c95852f-ac3f-4138-a306-1a1aff2d5ad5",
+    "fields": {
+        "picture": "user_1/istockphoto-1145618475-612x612.jpg",
+        "caption": "France",
+        "posted": "2022-06-07",
+        "user": [
+            "nimrod"
+        ],
+        "likes": 0,
+        "tags": [
+            2
+        ]
+    }
+},
+{
+    "model": "post.post",
+    "pk": "eaf1456a-4d5c-460b-a825-c5845ca8f32c",
+    "fields": {
+        "picture": "user_2/fall-family-pictures-1-of-10-1600x2400.webp",
+        "caption": "Family Time",
+        "posted": "2022-06-07",
+        "user": [
+            "amara"
+        ],
+        "likes": 0,
+        "tags": [
+            5
+        ]
+    }
+},
+{
+    "model": "post.follow",
+    "pk": 1,
+    "fields": {
+        "follower": [
+            "amara"
+        ],
+        "following": [
+            "nimrod"
+        ]
+    }
+},
+{
+    "model": "post.follow",
+    "pk": 2,
+    "fields": {
+        "follower": [
+            "nimrod"
+        ],
+        "following": [
+            "amara"
+        ]
+    }
+},
+{
+    "model": "post.stream",
+    "pk": 1,
+    "fields": {
+        "following": [
+            "nimrod"
+        ],
+        "user": [
+            "amara"
+        ],
+        "post": "449451df-ce80-4018-9234-9a9e42d186ed",
+        "date": "2022-06-07T00:00:00Z"
+    }
+},
+{
+    "model": "post.stream",
+    "pk": 2,
+    "fields": {
+        "following": [
+            "nimrod"
+        ],
+        "user": [
+            "amara"
+        ],
+        "post": "9c95852f-ac3f-4138-a306-1a1aff2d5ad5",
+        "date": "2022-06-07T00:00:00Z"
+    }
+},
+{
+    "model": "post.stream",
+    "pk": 3,
+    "fields": {
+        "following": [
+            "nimrod"
+        ],
+        "user": [
+            "amara"
+        ],
+        "post": "5ef07e4b-2cfe-4e87-8702-8e44ed56166c",
+        "date": "2022-06-07T00:00:00Z"
+    }
+},
+{
+    "model": "post.stream",
+    "pk": 4,
+    "fields": {
+        "following": [
+            "amara"
+        ],
+        "user": [
+            "nimrod"
+        ],
+        "post": "1778cfdf-3a10-48b8-9471-7a360744bf7c",
+        "date": "2022-06-07T00:00:00Z"
+    }
+},
+{
+    "model": "post.stream",
+    "pk": 5,
+    "fields": {
+        "following": [
+            "amara"
+        ],
+        "user": [
+            "nimrod"
+        ],
+        "post": "eaf1456a-4d5c-460b-a825-c5845ca8f32c",
+        "date": "2022-06-07T00:00:00Z"
+    }
+},
+{
+    "model": "post.stream",
+    "pk": 6,
+    "fields": {
+        "following": [
+            "amara"
+        ],
+        "user": [
+            "nimrod"
+        ],
+        "post": "2cfad4ac-8fb0-416e-ac88-5de99442a708",
+        "date": "2022-06-07T00:00:00Z"
+    }
+},
+{
+    "model": "post.stream",
+    "pk": 7,
+    "fields": {
+        "following": [
+            "amara"
+        ],
+        "user": [
+            "nimrod"
+        ],
+        "post": "97f24b52-ef35-4e44-9f77-02f39fb05445",
+        "date": "2022-06-07T00:00:00Z"
+    }
+},
+{
+    "model": "authy.profile",
+    "pk": 1,
+    "fields": {
+        "user": [
+            "nimrod"
+        ],
+        "image": "profile_pciture/depositphotos_65076917-stock-photo-hacker-and-terrorism-fight.jpg",
+        "first_name": "Nimrod",
+        "last_name": "Allan",
+        "bio": "Software Engineer",
+        "location": "Nairobi, Kenya",
+        "url": "https://www.nimrodmusungu.com",
+        "favourite": []
+    }
+},
+{
+    "model": "authy.profile",
+    "pk": 2,
+    "fields": {
+        "user": [
+            "amara"
+        ],
+        "image": "default.jpg",
+        "first_name": null,
+        "last_name": null,
+        "bio": null,
+        "location": null,
+        "url": null,
+        "favourite": []
+    }
+},
+{
+    "model": "notification.notification",
+    "pk": 1,
+    "fields": {
+        "post": null,
+        "sender": [
+            "amara"
+        ],
+        "user": [
+            "nimrod"
+        ],
+        "notification_types": 3,
+        "text_preview": "",
+        "date": "2022-06-07T12:10:35.947Z",
+        "is_seen": false
+    }
+},
+{
+    "model": "notification.notification",
+    "pk": 2,
+    "fields": {
+        "post": null,
+        "sender": [
+            "nimrod"
+        ],
+        "user": [
+            "amara"
+        ],
+        "notification_types": 3,
+        "text_preview": "",
+        "date": "2022-06-07T12:39:04.630Z",
+        "is_seen": false
+    }
+}
+]

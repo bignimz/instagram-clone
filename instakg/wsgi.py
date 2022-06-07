@@ -1,5 +1,5 @@
 """
-WSGI config for ig_prj project.
+WSGI config for instakg project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 

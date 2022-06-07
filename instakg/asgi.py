@@ -1,5 +1,5 @@
 """
-ASGI config for ig_prj project.
+ASGI config for instakg project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
