@@ -1,0 +1,1 @@
+web: gunicorn instakg.wsgi --log-file -

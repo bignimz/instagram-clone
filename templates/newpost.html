@@ -1,0 +1,19 @@
+{% extends 'base.html' %} {% load static %} {% block content %}
+<div id="wrapper" class="login-wrapper">
+  <div class="container">
+    <div class="form-data">
+      <form action="" method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        <div class="logo">
+          <h3 style="padding: 20px; font-size: 20px">Create New Post</h3>
+        </div>
+
+        {{form.picture}} <br />
+        {{form.caption}} <br />
+        {{form.tags}} <br />
+        <button class="form-btn" type="submit">Post</button>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}
