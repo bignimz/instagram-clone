@@ -803,6 +803,13 @@ img { max-width: 100%; }
       width: 350px;
   }
 
+  .search-results {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+  }
+
   /* width */
 ::-webkit-scrollbar {
     width: 10px;

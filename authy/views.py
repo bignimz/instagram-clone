@@ -113,7 +113,6 @@ def register(request):
             recipient_list = [email]
             send_mail(subject, message, from_email, recipient_list, fail_silently=False)
             new_user = form.save()
-            # Profile.get_or_create(user=request.user)
             username = form.cleaned_data.get('username')
             messages.success(request, f'Your account was created successfully!!')
 
